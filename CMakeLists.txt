@@ -15,7 +15,7 @@ include_directories( SYSTEM "external/glad/include" )
 include_directories( "include" )
 add_executable(
     window 
-    "window.c"
+    "src/window.c"
     "external/glad/src/glad.c" )
 target_link_libraries(
     window 
